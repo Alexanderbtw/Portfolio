@@ -4,8 +4,7 @@ html, body {
     overflow-x: hidden;
 }
 
-.nav-container
-{
+.nav-container {
     display: flex;
     justify-content: space-between;
     padding: 0;
