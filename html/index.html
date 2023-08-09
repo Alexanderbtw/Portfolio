@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Web Developer</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/flying.css">
+    <script src="https://kit.fontawesome.com/e1eb7182f7.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="../js/carousel.js" defer></script>
+    <script src="../js/popup.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <ul class="nav-container">
+          <ul class="nav-menu">
+            <li><a href="#" class="unselected_tab">Услуги</a></li>
+            <li><a href="#" id="selected_tab">Портфолио</a></li>
+            <li><a href="#" class="unselected_tab">Стоимость</a></li>
+          </ul>
+          <ul class="nav-menu">
+            <button type="button" class="btn btn-outline-dark">Заказать звонок</button>
+            <li><h4>+7 (927) 014-72-58</h4></li>
+          </ul>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <div id="personal-info">
+        <div class="container">
+          <h1>Александр Гольдебаев</h1>
+          <div id="prof-info">Full-stack web developer</div>
+          <a class="btn btn-grad" href="https://taplink.cc/sgoldebaev?from=qr" role="button">Узнать больше</a>
+        </div>
+        <span id="fly-div" class="fly-word">&lt;div&gt;</span>
+        <span id="fly-slash" class="fly-word">&lt;/&gt;</span>
+        <span id="fly-slash2" class="fly-word">&lt;/&gt;</span>
+        <span id="fly-cs" class="fly-word">C#</span>
+        <span id="fly-bracket" class="fly-word">{ }</span>
+        <span id="fly-dotnet" class="fly-word">.NET</span>
+      </div>
+      <div id="specialization">
+        <div class="container">
+          <h2>Специализация</h2>
+          <div id="spec-container">
+            <div class="spec-item">
+              <img src="../img/cs-spec.svg" alt="C#">
+              Создание веб-приложений на ASP.NET
+            </div>
+            <div class="spec-item">
+              <img src="../img/js-spec.svg" alt="JavaScript">
+              Frontend-разработка <br> на JavaScript
+            </div>
+            <div class="spec-item">
+              <img src="../img/adaptive-spec.svg" alt="Adaptive">
+              Вёрстка и доработка лендинг-страниц и сайтов любой сложности
+            </div>
+            <div class="spec-item">
+              <img src="../img/db-spec.svg" alt="DataBase">
+              Управление и администрирование баз данных
+            </div>
+          </div>
+          <a class="btn btn-grad" href="#" role="button">Прейскурант</a>
+        </div>
+      </div>
+      <div id="my-works">
+        <div class="container">
+          <h2>Мои работы</h2>
+          <div class="wrapper">
+            <i id="left-arrow" class="bi bi-caret-left-fill"></i>
+            <div class="carousel">
+              <img src="../img/auth-proj.png" alt="Веб приложение с формами регистрации и входа в личный кабинет" draggable="false">
+              <img src="../img/todo-proj.png" alt="Список задач с возможностью сохранения задач в БД, а также скачивания в формате txt" draggable="false">
+              <img src="../img/exchange-proj.png" alt="Работа с API для получения курса валют" draggable="false">
+              <img src="../img/news-proj.png" alt="Свёрстанный макет сайта для новостного агенства" draggable="false">
+            </div>
+            <i id="right-arrow" class="bi bi-caret-right-fill"></i>
+          </div>
+          <a class="btn btn-grad" href="#" role="button">Заказать проект</a>
+          <div class="popup-img">
+            <span>&times;</span>
+            <img src="../img/auth-proj.png" alt="auth-proj">
+            <h5>Description</h5>
+          </div>
+          <span id="fly-div-2" class="fly-word">&lt;div&gt;</span>
+          <span id="fly-slash-2" class="fly-word">&lt;/&gt;</span>
+          <span id="fly-slash2-2" class="fly-word">&lt;/&gt;</span>
+          <span id="fly-cs-2" class="fly-word">C#</span>
+          <span id="fly-bracket-2" class="fly-word">{ }</span>
+          <span id="fly-dotnet-2" class="fly-word">.NET</span>
+        </div>
+      </div>
+      <address>
+        <div class="container">
+          <h3>Контактная информация</h3>
+          <div class="contact-grid">
+            <div id="services"><a href="#">Услуги</a></div>
+            <div id="portfolio"><a href="#">Портфолио</a></div>
+            <div id="price"><a href="#">Стоимость</a></div>
+            <div id="number"><i class="bi bi-telephone-fill grad-icon"></i> +7 (927) 014-72-58</div>
+            <div id="email"><i class="bi bi-envelope-at-fill grad-icon"></i> sgoldebaev@gmail.com</div>
+            <div id="button"><button type="button" class="btn btn-outline-dark">Заказать звонок</button></div>
+            <div id="links"><a href="https://vk.com/born_to_whineee"><i class="fa-brands fa-vk grad-icon"></i></a>
+              <a href="https://github.com/Alexanderbtw?tab=repositories"><i class="bi bi-github grad-icon"></i></a>
+              <a href="https://t.me/bornToWhine"><i class="bi bi-telegram grad-icon"></i></a>
+              <a href="https://www.linkedin.com/in/alexander-goldebaev-a03129284/"><i class="fa-brands fa-linkedin grad-icon"></i></a>
+              <a href="https://leetcode.com/sgoldebaev/"><i class="fa-solid fa-code grad-icon"></i></a>
+            </div>
+          </div>
+        </div>
+      </address>
+    </main>
+    <footer>
+      &copy; Гольдебаев Александр 2023
+    </footer>
+  </body>
+</html>
