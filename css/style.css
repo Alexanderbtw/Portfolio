@@ -1,3 +1,7 @@
+html {
+    overflow-y: scroll;
+}
+
 html, body {
     margin-top: 10px;
     font-family: "Montserrat", "Helvetica Neue";
@@ -306,6 +310,14 @@ h3{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.white-text-info
+{
+    text-align: left;
+    color: rgb(242, 242, 242);
+    padding-bottom: 5%;
+    margin-bottom: 0 !important;
 }
 
 footer {
