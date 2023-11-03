@@ -3,12 +3,12 @@ html {
 }
 
 html, body {
-    margin-top: 10px;
     font-family: "Montserrat", "Helvetica Neue";
     overflow-x: hidden;
 }
 
 .nav-container {
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     padding: 0;

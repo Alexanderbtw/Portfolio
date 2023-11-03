@@ -21,20 +21,41 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="../js/carousel.js" defer></script>
     <script src="../js/popup.js" defer></script>
+
+    <link rel="stylesheet" href="../css/modal.css">
+    <script src="../js/modal.js" defer></script>
   </head>
   <body>
+    <div class="modalBackground">
+      <div class="modalActive">
+        <div class="modalClose">
+          &#10006;
+        </div>
+        <div class="modalWindow">
+          <form action="post" id="email-post-form">
+            <label for="inp-number">Ваш номер:</label>
+            <input type="number" class="form-control border-dark" required>
+            <label for="inp-name">Как к вам обращаться:</label>
+            <input type="text" class="form-control border-dark" required>
+            <label for="inp-name">Контекст будущего разговора:</label>
+            <input type="text" class="form-control">
+            <button type="submit" class="btn btn-outline-dark">Заказать звонок</button>
+          </form>
+        </div>
+      </div>
+    </div>
     <nav>
       <div class="container">
-        <ul class="nav-container">
+        <div class="nav-container">
           <ul class="nav-menu">
-            <li><a href="#" id="selected_tab">Портфолио</a></li>
+            <li><a href="#" id="selected_tab">Главная</a></li>
             <li><a href="../html/about.html" class="unselected_tab">Обо мне</a></li>
           </ul>
           <ul class="nav-menu">
-            <button type="button" class="btn btn-outline-dark">Заказать звонок</button>
+            <li><button type="button" class="btn btn-outline-dark trigger">Заказать звонок</button></li>
             <li><h4>+7 (927) 014-72-58</h4></li>
           </ul>
-        </ul>
+        </div>
       </div>
     </nav>
     <main>

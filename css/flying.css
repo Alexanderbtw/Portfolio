@@ -2,7 +2,7 @@
 {
     user-select: none;
     background: linear-gradient(315deg, rgba(151,51,238,1) 0%, rgba(218,34,255,1) 100%);
-    background-clip: text;
+    background-clip: content-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: absolute;
